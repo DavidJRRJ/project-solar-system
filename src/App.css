@@ -1,7 +1,8 @@
 * {
   background-color: black;
   box-sizing: border-box;
-  color: aqua;
+  font-family: 'Epilogue', sans-serif;
+  color: #FFFFFF;
   margin: 0;
   padding: 0;
 }
@@ -11,13 +12,15 @@
   display: flex;
   font-size: 25px;
   justify-content: center;
+  margin-top: 20px;
 }
 
 .title {
   display: flex;
   justify-content: center;
-  margin-bottom: 10px;
-  text-decoration: underline;
+  font-weight: 300;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 .planet-cards {
@@ -26,18 +29,18 @@
 }
 
 .planet-cards img {
-  width: 400px;
+  width: 230px;
 }
 
 .planet-cards p {
-  font-size: 20px;
-  font-weight: 600;
+  font-size: 16px;
+  font-weight: 400;
 }
 
 .container-planet {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: space-between;
   width: 100vw;
 }
 
@@ -49,10 +52,17 @@
 }
 
 .card-missions {
+  align-items: center;
+  justify-content: center;
   border: 2px solid #303030;
   border-radius: 10px;
-  font-size: 23px;
+  display: flex;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 1.5;
   margin: 3px;
   padding: 3px;
   text-align: center;
+  width: 450px;
+  height: 190px;
 }
