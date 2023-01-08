@@ -1,10 +1,55 @@
-# :construction: README em construção ! :construction:
-<!-- Olá, Tryber!
-Esse é apenas um arquivo inicial para o README do seu projeto.
-É essencial que você preencha esse documento por conta própria, ok?
-Não deixe de usar nossas dicas de escrita de README de projetos, e deixe sua criatividade brilhar!
-:warning: IMPORTANTE: você precisa deixar nítido:
-- quais arquivos/pastas foram desenvolvidos por você; 
-- quais arquivos/pastas foram desenvolvidos por outra pessoa estudante;
-- quais arquivos/pastas foram desenvolvidos pela Trybe.
--->
+# Projeto Solar System
+
+Neste projeto foi desenvolvido um modelo do sistema solar! Ao utilizar essa aplicação uma pessoa usuária deverá ser capaz de:
+
+* Visualizar todos os planetas do sistema solar renderizados na tela;
+* Visualizar todas as cartas com informações sobre missões especiais.
+
+# Habilidades
+
+Neste projeto, foi verificado se fui capaz de:
+
+* Utilizar JSX no React;
+
+* Utilizar corretamente o método render() para renderizar seus componentes;
+
+* Utilizar import para trazer componentes em diferentes arquivos;
+
+* Criar componentes de classe em React;
+
+* Criar múltiplos componentes a partir de um array;
+
+* Fazer uso de props corretamente;
+
+* Fazer uso de PropTypes para validar as props de um componente.
+
+
+
+## Tecnologias usadas
+
+* React
+* CSS3
+* HTML5
+
+## Executando a aplicação
+
+1. Clone o repositório
+- `git clone git@github.com:DavidJRRJ/project-solar-system.git`
+
+2. Entre na pasta do projeto
+- `cd project-solar-system`
+
+3. Instale as dependências e inicialize o projeto
+
+- Instale as dependências:
+  - `npm install`
+- Inicialize o projeto:
+  - `npm start` (uma nova página deve abrir no seu navegador com um texto simples)
+
+## Executando Testes
+
+* Para rodar todos os testes:
+
+  ```
+    npm test
+  ```
