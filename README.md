@@ -23,7 +23,7 @@ Neste projeto, foi verificado se fui capaz de:
 
 * Fazer uso de PropTypes para validar as props de um componente.
 
-## Link para o Deploy
+## Deploy
 [Projeto Solar System](https://project-solar-system-five.vercel.app/)
 
 ## Tecnologias usadas
