@@ -1,68 +1,169 @@
-* {
-  background-color: black;
-  box-sizing: border-box;
-  font-family: 'Epilogue', sans-serif;
-  color: #FFFFFF;
-  margin: 0;
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@300;400&display=swap');
+
+body {
+  border: 0;
   padding: 0;
+  background-image: url(/src/images/background.png);
+  color: white;
+  font-family: 'Epilogue', sans-serif;
 }
 
-
-.header {
-  display: flex;
-  font-size: 25px;
-  justify-content: center;
-  margin-top: 20px;
-}
-
-.title {
-  display: flex;
-  justify-content: center;
+.header h1 {
+  text-align: center;
+  font-size: 80px;
   font-weight: 300;
-  margin-top: 30px;
-  margin-bottom: 30px;
+}
+
+.title h1 {
+  text-align: center;
+  font-size: 40px;
+  font-weight: 300;
+  line-height: 60px;
+}
+
+.missions {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.missions .title {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  font-size: 40px;
+  font-weight: 300;
+  line-height: 60px;
+}
+
+.container-missions {
+  width: 75%;
+  height: auto;
+  border: 1px solid rgba(0, 0, 0, 0.9);
+  background-color: rgba(255, 255, 255, 0.07);
+  border-radius: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.container-planet {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-missions {
+  border: 1px solid #FFFFFF;
+  border-radius: 17px;
+  width: 496px;
+  height: 192px;
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.mission-info {
+  width: 450px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+
+.card-missions h4 {
+  font-size: 28px;
+  font-weight: 300;
+  line-height: 34px;
+}
+
+.card-missions p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21px;
 }
 
 .planet-cards {
-  margin-top: 10px;
-  text-align: center;
-}
-
-.planet-cards img {
-  width: 230px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .planet-cards p {
   font-size: 16px;
   font-weight: 400;
+  color: #fff;
+  line-height: 24px;
 }
 
-.container-planet {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  width: 100vw;
+.Mercúrio {
+  width: 41px;
+  height: 31px;
 }
 
-.container-missions {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  width: 100%;
+.Vênus {
+  width: 102px;
+  height: 76px;
 }
 
-.card-missions {
-  align-items: center;
-  justify-content: center;
-  border: 2px solid #303030;
-  border-radius: 10px;
-  display: flex;
-  font-size: 20px;
-  font-weight: 300;
-  line-height: 1.5;
-  margin: 3px;
-  padding: 3px;
-  text-align: center;
-  width: 450px;
-  height: 190px;
+.Terra {
+  width: 106px;
+  height: 79px;
+}
+
+.Marte {
+  width: 66px;
+  height: 50px;
+}
+
+.Júpiter {
+  width: 272px;
+  height: 204px;
+}
+
+.Saturno {
+  width: 282px;
+  height: 210px;
+}
+
+.Urano {
+  width: 144px;
+  height: 109px;
+}
+
+.Netuno {
+  width: 144px;
+  height: 107px;
+}
+
+@media only screen and (max-width: 1366px) {
+  .container-missions {
+    width: 85%;
+  }
+
+  .card-missions {
+    width: 450px;
+    height: 180px;
+  }
+  
+  .mission-info {
+    width: 410px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  
+  .card-missions h4 {
+    font-size: 28px;
+  }
+  
+  .card-missions p {
+    font-size: 18px;
+  }
 }
