@@ -22,9 +22,6 @@ Neste projeto, foi verificado se fui capaz de:
 
 * Fazer uso de PropTypes para validar as props de um componente.
 
-## Deploy
-[Projeto Solar System](https://project-solar-system-five.vercel.app/)
-
 ## Tecnologias usadas
 
 * React
@@ -34,14 +31,32 @@ Neste projeto, foi verificado se fui capaz de:
 ## Executando a aplicação
 
 1. Clone o repositório
-- `git clone git@github.com:DavidJRRJ/project-solar-system.git`
+
+```bash
+  git clone git@github.com:DavidJRRJ/project-solar-system.git
+```
 
 2. Entre na pasta do projeto
-- `cd project-solar-system`
 
-3. Instale as dependências e inicialize o projeto
+```bash
+  cd project-solar-system
+```
 
-- Instale as dependências:
-  - `npm install`
-- Inicialize o projeto:
-  - `npm start` (uma nova página deve abrir no seu navegador com um texto simples)
+3. Instale as dependências
+
+```bash
+  npm install
+```
+
+4. Inicialize o projeto
+
+```bash
+  npm start
+```
+
+## Deploy do projeto
+[Projeto Solar System](https://project-solar-system-five.vercel.app/)
+
+## Screenshot
+
+![Solar System Screenshot](src/images/screenshot.png)
