@@ -1,5 +1,6 @@
 # Projeto Solar System
 
+
 Neste projeto foi desenvolvido um modelo do sistema solar! Ao utilizar essa aplicação uma pessoa usuária deverá ser capaz de:
 
 * Visualizar todos os planetas do sistema solar renderizados na tela;
@@ -8,8 +9,6 @@ Neste projeto foi desenvolvido um modelo do sistema solar! Ao utilizar essa apli
 # Habilidades
 
 Neste projeto, foi verificado se fui capaz de:
-
-* Utilizar JSX no React;
 
 * Utilizar corretamente o método render() para renderizar seus componentes;
 
@@ -46,11 +45,3 @@ Neste projeto, foi verificado se fui capaz de:
   - `npm install`
 - Inicialize o projeto:
   - `npm start` (uma nova página deve abrir no seu navegador com um texto simples)
-
-## Executando Testes
-
-* Para rodar todos os testes:
-
-  ```
-    npm test
-  ```
